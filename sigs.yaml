@@ -3154,6 +3154,38 @@ workinggroups:
     liaison:
       github: mrbobbytables
       name: Bob Killen
+- dir: wg-wasm
+  name: Batch
+  mission_statement: >
+    Discuss and enhance the support for Batch (eg. HPC, AI/ML, data analytics, CI)
+    workloads in core Kubernetes. We want to unify the way users deploy batch workloads
+    to improve portability and to simplify supportability for Kubernetes providers.
+
+  charter_link: charter.md
+  stakeholder_sigs:
+  - TAG-Runtime
+  label: wasm
+  leadership:
+    chairs:
+    - github: helayoty
+      name: Heba Elayoty
+      company: Microsoft
+    
+  meetings:
+  - description: Regular Meeting ([Calendar]())
+    day: TBD
+    time: TBD
+    tz: PT (Pacific Time)
+    frequency: TBD
+    url: 
+    archive_url: 
+    recordings_url: 
+  contact:
+    slack: wg-wasm
+    mailing_list: https://groups.google.com/a/kubernetes.io/g/wg-wasm
+    liaison:
+      github: mrbobbytables
+      name: Bob Killen
 - dir: wg-data-protection
   name: Data Protection
   mission_statement: >
